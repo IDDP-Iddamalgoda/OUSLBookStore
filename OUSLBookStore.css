@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1ebeb;
+    
+}
+
+#logo{
+   border-radius: 1000%;
+    align-items: left;
+    margin: 10px;
+   
+}
+
+.headerMain{
+align-items: center;
+font-size: 200%;
+color: #007bff;
+
+
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+   color: white;
+} 
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+section {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 1em;
+}
+
+button {
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Shopping Cart and Inventory Styles */
+#cart ul, #searchResults, #bookList ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cartItems li, #searchResults li, #bookList li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#checkoutButton {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #007bff;
+}
+
+#checkoutButton:hover {
+    background-color: #0069d9;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - OUSLBookStore</title>
+    <link rel="stylesheet" href="OUSLBookStore.css">
+</head>
+<body>
+    <header>
+        <h1>OUSLBookStore Admin Panel</h1>
+    </header>
+
+    <section id="adminActions">
+        <h2>Manage Book Inventory</h2>
+        <form id="addBookForm">
+            <h3>Add New Book</h3>
+            <input type="text" placeholder="Title" required>
+            <input type="text" placeholder="Author" required>
+            <input type="text" placeholder="Genre" required>
+            <input type="number" placeholder="Price" required>
+            <button type="submit">Add Book</button>
+        </form>
+
+        <div id="bookList">
+            <h3>Current Inventory</h3>
+            <ul>
+                <!-- List of books will be dynamically added here -->
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 OUSLBookStore. All Rights Reserved.</p>
+    </footer>
+
+    <script src="admin.js"></script>
+</body>
+</html>

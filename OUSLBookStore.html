@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUSLBookStore</title>
+    <link rel="stylesheet" href="OUSLBookStore.css">
+</head>
+<body>
+  
+    <img id="logo" src="logo.png" alt="logo">
+    <header >
+        <h1 class=" headerMain">Welcome to OUSLBookStore</h1>
+    </header>
+ 
+    <section id="auth">
+        <h2>Customer Registration/Login</h2>
+        <form id="registerForm">
+            <h3>Register</h3>
+            <input type="text" placeholder="Username" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Register</button>
+        </form>
+
+        <form id="loginForm">
+            <h3>Login</h3>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <section id="search">
+        <h2>Book Search</h2>
+        <input type="text" id="searchTerm" placeholder="Search by title, author, or genre">
+        <button id="searchButton">Search</button>
+        <ul id="searchResults"></ul>
+    </section>
+
+    <section id="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cartItems"></ul>
+        <button id="checkoutButton">Proceed to Checkout</button>
+    </section>
+
+    <footer>
+        <p>© 2024 OUSLBookStore. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
